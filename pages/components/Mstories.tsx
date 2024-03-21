@@ -1,5 +1,6 @@
 import React from "react";
 import { mconst } from "../const";
+import Image from "next/image";
 
 const Mstories = ({
   ani,
@@ -25,7 +26,13 @@ const Mstories = ({
             key={index}
             className="w-full shadow-[1px_-1px_1px_0px_rgba(0,0,0,0.3)]"
           >
-            <img src={item.img} alt="" className="w-full h-40" />
+            <Image
+              src={item.img}
+              alt=""
+              className="w-full h-40"
+              height={460}
+              width={400}
+            />
             <div className="box-border w-full p-3 flex gap-2 flex-col">
               <h4 className="font-semibold text-base">{item.title}</h4>
               <p className="line-clamp-5 text-xs">{item.description}</p>

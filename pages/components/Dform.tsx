@@ -1,5 +1,6 @@
 import React from "react";
 import { dconst } from "../const";
+import Image from "next/image";
 
 const Dform = ({
   ani,
@@ -25,10 +26,12 @@ const Dform = ({
             key={index}
             className="w-full shadow-[5px_5px_5px_0_rgba(0,0,0,0.3)] bg-white rounded-lg p-2 flex"
           >
-            <img
+            <Image
               src={item.img}
               alt="img"
               className="w-8 h-8 rounded-3xl flex items-center justify-center m-2"
+              height={32}
+              width={32}
             />
             <div className="box-border px-3">
               <div className="h-8 flex gap-5">
