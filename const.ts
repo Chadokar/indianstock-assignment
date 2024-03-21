@@ -1,5 +1,5 @@
-import personalimg from "../img/personal.png";
-import natureimg from "../img/nature.png";
+import personalimg from "./img/personal.png";
+import natureimg from "./img/nature.png";
 
 export const dconst = [
   {
