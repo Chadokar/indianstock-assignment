@@ -1,5 +1,5 @@
 import React from "react";
-import { mconst } from "../const";
+import { mconst } from "../../const";
 import Image from "next/image";
 
 const Mstories = ({

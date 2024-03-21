@@ -1,5 +1,5 @@
 import React from "react";
-import { dconst } from "../const";
+import { dconst } from "../../const";
 import Image from "next/image";
 
 const Dform = ({
