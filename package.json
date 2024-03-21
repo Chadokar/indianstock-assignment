@@ -8,9 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "engines": {
-    "node": "20.x"
-  },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
